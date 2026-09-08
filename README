@@ -1,0 +1,14 @@
+# End-to-End Data Engineering & AI Capstone Pipeline
+
+## 📌 Project Overview
+This project implements a complete five-stage data engineering and RAG pipeline, covering modern data stack architecture, validation, processing layers, vector search, orchestration, and data lineage.
+
+## 🛠️ Pipeline Architecture & Stages
+1. *Stage 1 (Ingestion & Validation):* Kafka streaming simulation with strict schema enforcement using Pydantic and a Dead-Letter Topic (DLT) mechanism.
+2. *Stage 2 (Storage & Processing):* Multi-layer Data Lake architecture utilizing Bronze (raw data), Silver (cleaned/transformed data), and Gold (aggregated business/AI reports) layers.
+3. *Stage 3 (AI & RAG Pipeline):* Document chunking, vector embedding generation using sentence-transformers, and a hybrid search mechanism (Vector + BM25).
+4. *Stage 4 (Orchestration):* DAG-based workflow management simulating scheduled pipeline execution.
+5. *Stage 5 (Data Quality & Lineage):* Automated data quality gates and metadata lineage tracking.
+
+## 🛡️ References & Standards Compliance
+* *Data Governance & Security Standards:* Aligned with national data governance frameworks and open data compliance guidelines (such as SDAIA data management principles).
