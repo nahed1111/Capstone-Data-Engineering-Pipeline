@@ -3,24 +3,19 @@
 ## 📌 Project Overview
 This project implements a complete five-stage data engineering and RAG pipeline, covering modern data stack architecture, validation, processing layers, vector search, orchestration, and data lineage.
 
-## 🛠️ Pipeline Architecture & Stages
-1. *Stage 1 (Ingestion & Validation):* Kafka streaming simulation with strict schema enforcement using Pydantic and a Dead-Letter Topic (DLT) mechanism.
-2. *Stage 2 (Storage & Processing):* Multi-layer Data Lake architecture utilizing Bronze (raw data), Silver (cleaned/transformed data), and Gold (aggregated business/AI reports) layers.
-3. *Stage 3 (AI & RAG Pipeline):* Document chunking, vector embedding generation using sentence-transformers, and a hybrid search mechanism (Vector + BM25).
-4. *Stage 4 (Orchestration):* DAG-based workflow management simulating scheduled pipeline execution.
-5. *Stage 5 (Data Quality & Lineage):* Automated data quality gates and metadata lineage tracking.
-
-## 🛡️ References & Standards Compliance
-* *Data Governance & Security Standards:* Aligned with national data governance frameworks and open data compliance guidelines (such as SDAIA data management principles).
-# How to Run and Use
-## Prerequisites
+## 🚀 How to Run and Use
+### Prerequisites
 * Python 3.10+
 * Google Colab or Jupyter Notebook environment
 
-## Execution Steps
-1. Clone or access the repository: https://github.com/nahed1111/Capstone-Data-Engineering-Pipeline
-2. Open the notebook file Untitled1.ipynb in Google Colab.
-3. Execute the notebook cells sequentially from Stage 1 through Stage 5 to run the pipeline, process data layers, and evaluate the workflow.
-
-## 🏫 Training Program Attribution
-* *Academy Reference:* Developed as part of the training program under [SDAIA Academy on GitHub](https://github.com/SDAIAAcademy).
+### Execution Steps
+1. Clone the repository:
+   ```bash
+git clone https://github.com/nahed1111/Capstone-Data-Engineering-Pipeline.git
+Open the notebook file ⁠Untitled1.ipynb⁠ in Google Colab or Jupyter.
+2. Execute the cells sequentially from Stage 1 to Stage 5 to run the pipeline simulation and generate data outputs.
+🏫 Training Program Attribution
+ Program Name: Modern Data Engineering for AI Systems Capstone Project.
+ Academy Reference: Developed under SDAIA Academy on GitHub.
+🛡️ References & Standards Compliance
+ Data Governance & Security Standards: Aligned with national data governance frameworks and open data compliance guidelines
