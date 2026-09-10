@@ -1,0 +1,7 @@
+# Python & Jupyter
+_pycache_/
+.ipynb_checkpoints/
+*.pyc
+
+# Environment / OS
+.DS_Store
